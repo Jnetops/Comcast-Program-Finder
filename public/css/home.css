@@ -1,0 +1,311 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+img {
+  height: 70px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#channel-title, #submit-channel {
+  display: none;
+}
+
+@media all and (min-width: 991px) {
+  button.btn, button.btn:active, button.btn:focus {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .airing-li.first {
+    margin-top: -28px;
+  }
+
+  .col-md-12.first {
+    margin-top: 28px;
+  }
+
+  .col-md-6.type-col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn.search, .btn.channel {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .col-md-6.airing {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .col-md-6.search-results-title {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    height: 60px;
+  }
+
+  .col-md-6.search-results-time {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+
+  .radio.search-option {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+
+  #channel-title, #submit-channel {
+    display: none;
+  }
+
+  button.btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+
+  label.btn.search:hover, label.btn.search:active, label.btn.search:focus, label.btn.channel:hover, label.btn.channel:focus, label.btn.channel:active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .row.search-entry {
+    height: 317px;
+  }
+
+  .col-md-12.service-id, .col-md-12.search {
+    display: none;
+  }
+
+  .airing-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: black;
+    margin-bottom: 50px;
+  }
+
+  li.airing-li.search, li.airing-li.channel {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin: 20px;
+    overflow: hidden;
+    height: auto;
+  }
+
+  li.airing-li.channel {
+    padding-bottom: 20px;
+  }
+
+  #zipcode, #keywords, #id {
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #id {
+    width: 500px;
+  }
+
+  #keywords, #submit-search, #submit-channel {
+    width: 100%;
+  }
+
+  #zipcode, #submit-zip {
+    width: 150px;
+    display: inline-block;
+  }
+
+  #submit-zip, #submit-search, #submit-channel {
+    margin-left: 10px;
+  }
+
+  #submit-search, #keywords {
+    display: inline-block;
+  }
+
+  .col-md-10.search-col, .col-md-2.search-col {
+    padding: 0px;
+  }
+
+  .row.airing-row {
+    margin-top: 30px;
+  }
+
+  #datetime {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .input-group.date.form_datetime.text-center {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  button.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .col-md-6.type-col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn.search, .btn.channel {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .col-md-6.airing {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .col-md-6.search-results-title {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .col-md-6.search-results-time {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+
+  #channel-title, #submit-channel {
+    display: none;
+  }
+
+  button.btn:hover, button.btn:active, button.btn:focus {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+
+  label.btn.search:hover, label.btn.search:active, label.btn.search:focus, label.btn.channel:hover, label.btn.channel:focus, label.btn.channel:active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  input, button, select {
+    height: 32px;
+  }
+
+  #id, #keywords, #zipcode {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .col-md-6 {
+    padding: 0px !important;
+  }
+
+  .col-md-10.search-col, .col-md-2.search-col {
+    padding: 0px;
+  }
+
+  #keywords, #submit-search, #submit-channel {
+    width:100%;
+    margin-bottom: 10px;
+  }
+
+  #id {
+    width: 100%;
+  }
+
+  #zipcode, #submit-zip {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .airing-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: black;
+    margin-bottom: 50px;
+  }
+
+  li.airing-li.search, li.airing-li.channel {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin: 20px;
+  }
+
+  li.airing-li.channel {
+    padding-bottom: 20px;
+  }
+
+  .col-md-12.service-id, .col-md-12.search {
+    display: none;
+  }
+}
+
+
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+                url('http://sampsonresume.com/labs/pIkfp.gif')
+                50% 50%
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
